@@ -1,0 +1,29 @@
+﻿<mui:ModernWindow x:Class="PlantView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mui="http://firstfloorsoftware.com/ModernUI"      
+        Title="Plant View" Height="704" Width="1105">
+    <mui:ModernWindow.TitleLinks>
+        <mui:Link DisplayName="Settings" Source="/Pages/Settings.xaml" />
+    </mui:ModernWindow.TitleLinks>
+    
+    <mui:ModernWindow.MenuLinkGroups>
+        <mui:LinkGroup DisplayName="DATA">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="IMPORT" Source="/Controls/Data/Import.xaml#1" />
+                <mui:Link DisplayName="LIVE DATA" Source="/Controls/Data/Live.xaml#2" />
+            </mui:LinkGroup.Links>            
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="CHARTS" >
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="REPORTS" >
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="UTILITIES" >
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="SETTINGS" >
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="HELP" >
+        </mui:LinkGroup>
+    </mui:ModernWindow.MenuLinkGroups>
+  
+</mui:ModernWindow>
